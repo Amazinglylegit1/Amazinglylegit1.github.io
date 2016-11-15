@@ -46,6 +46,7 @@ p {
 nav ul {
     display: flex;
     flex-direction: row;
+    list-style-type: none;
     width: 100%;
 }
 
