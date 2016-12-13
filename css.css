@@ -1,130 +1,205 @@
-@import url('https://fonts.googleapis.com/css?family=Rock+Salt');
-@import url('https://fonts.googleapis.com/css?family=Covered+By+Your+Grace');
-* {
-    box-sizing: border-box;
-}
-
-#logo {
-    background: white;
-    position: relative;
-}
-
-nav {
-    background-color: #2D1562;
-    color: #8F6912;
-    font-size: 1.2em;
-    line-height: 2em;
-    margin-top: -80px;
-}
-
-nav > ul {
-    display: flex;
-    flex-wrap: wrap;
-    list-style-type: none;
-    margin-left: 90px;
-    margin-right: 5px;
-    margin-bottom: 0;
-    margin-top: 0;
-}
-
-nav ul li {
-    flex: 1 1 4em;
-}
-
-nav a:link,
-nav a:visited {
-    color: #8F6912;
-}
-
-nav a:hover {
-    color: #442200;
-}
-
-nav a:active {
-    color: #693400;
-}
-
-#middle-row {
-    background-color: #2D1562;
-}
-
-#bottom-row {
-    text-align: center;
-    margin: 0;
-}
-
-.middle-paragraph-color {
-    color: #693400;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    color: #8F6912;
-    font-family: "rock salt", Times, serif;
-    padding-bottom: 0em;
-    margin-bottom: 0em;
-}
-
-h2 {
-    margin-bottom: 0;
-}
-
-p {
-    color: #693400;
-    margin-top: 0em;
-}
-
-body {
-    background-color: #081647;
-    font-family: "covered by your grace", Helvetica, sans-serif;
-    font-size: 23px;
-}
-
-#content {
-    /*width: 80%;*/
-    max-width: 960px;
-    margin: 0 auto;
-}
-
-li {
-    font-size: 1.1em;
-}
-
-#top-row,
-#middle-row {
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-}
-
-#top-row img {
-    max-width: 100%;
-}
-
-#middle-row img {
-    max-width: 100%;
-}
-
-#banner img {
-    width: 100%;
-}
-
-.leftcol,
-.rightcol {
-    width: 48%;
-    flex: 1 0 15em;
-    margin: .5em;
-}
-
-.page-layout {
-    width: 960px;
-}
-
-footer {
-    display: flex;
-    justify-content: space-between;
-}
+    @import url('https://fonts.googleapis.com/css?family=Rock+Salt');
+    @import url('https://fonts.googleapis.com/css?family=Covered+By+Your+Grace');
+    * {
+        box-sizing: border-box;
+    }
+    
+    #logo {
+        background: white;
+        position: relative;
+    }
+    
+    nav {
+        background-color: #2D1562;
+        font-size: 1.2em;
+        line-height: 2em;
+        margin-top: -80px;
+    }
+    
+    nav > ul {
+        display: flex;
+        flex-wrap: wrap;
+        list-style-type: none;
+        margin-left: 90px;
+        margin-right: 5px;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    
+    nav ul li {
+        flex: 1 1 4em;
+    }
+    
+    nav a:link,
+    nav a:visited {
+        color: #FFBB00;
+    }
+    
+    nav a:hover {
+        color: #442200;
+    }
+    
+    nav a:active {
+        color: #693400;
+    }
+    
+    #middle-row {
+        background-color: #2D1562;
+    }
+    
+    #bottom-row {
+        text-align: center;
+        margin: 0;
+    }
+    
+    .middle-paragraph-color {
+        color: #E03600;
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: #FFBB00;
+        font-family: "rock salt", Times, serif;
+        padding-bottom: 0em;
+        margin-bottom: 0em;
+    }
+    
+    h2 {
+        margin-bottom: 0;
+    }
+    
+    p {
+        color: #E03600;
+        margin-top: 0em;
+    }
+    
+    body {
+        background-color: #081647;
+        font-family: "covered by your grace", Helvetica, sans-serif;
+        font-size: 23px;
+    }
+    
+    #content {
+        /*width: 80%;*/
+        max-width: 960px;
+        margin: 0 auto;
+    }
+    
+    li {
+        font-size: 1.1em;
+    }
+    
+    #top-row,
+    #middle-row {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+    }
+    
+    #top-row img {
+        max-width: 100%;
+    }
+    
+    #middle-row img {
+        max-width: 100%;
+    }
+    
+    #banner img {
+        width: 100%;
+    }
+    
+    .leftcol,
+    .rightcol {
+        width: 48%;
+        flex: 1 0 15em;
+        margin: .5em;
+    }
+    
+    .page-layout {
+        width: 960px;
+    }
+    
+    #left-column {
+        float: left;
+        width: 24%;
+        margin-right: 7px;
+        border: solid;
+        min-width: inherit;
+        border-color: #081647;
+    }
+    
+    #middle-column {
+        float: left;
+        width: 49%;
+        min-width: inherit;
+        border: solid;
+        border-color: #081647;
+        padding-right: 0px;
+        margin: 0;
+    }
+    
+    #margin-7 {
+        margin: 7px;
+    }
+    
+    a {
+        color: #F03A00;
+    }
+    
+    #middle-column ul {
+        list-style-type: none;
+    }
+    
+    #right-column {
+        float: right;
+        width: 25%;
+        min-width: inherit;
+    }
+    
+    #right-column img {
+        width: 100%;
+    }
+    
+    #month {
+        border: solid;
+        background-color: #2D1562;
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    
+    #month p {
+        margin: 0;
+        color: #FFBB00;
+    }
+    
+    .week {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        display: flex;
+    }
+    
+    #day-of-week p {
+        margin: 0;
+    }
+    
+    .week li {
+        width: 15%;
+        margin: 0;
+        border: solid;
+        text-align: center;
+    }
+    
+    footer {
+        display: flex;
+        justify-content: space-between;
+        width: 85%;
+        max-width: 960px;
+        margin: 0 auto;
+    }
